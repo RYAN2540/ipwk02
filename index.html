@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Nuno - Responsive Bootstrap Theme</title>
+	<title>Independent Project Week 2.</title>
 	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="css/fixed.css">
@@ -30,6 +30,9 @@
 				<a class="nav-link" href="#about">About</a>
 			</li>
 			<li class"nav-item">
+				<a class="nav-link" href="#form">Form</a>
+			</li>
+			<li class"nav-item">
 				<a class="nav-link" href="#contact">Contact</a>
 			</li>
         </ul>
@@ -45,9 +48,9 @@
 </div>
 
 <div class="caption text-center">
-	<h1>Welcome to Nuno</h1>
-	<h3>Udemy Bootstrap 4 Course</h3>
-	<a class="btn btn-outline-light btn-lg" href="#contact">Get Started</a>
+	<h1>Akan Name Generator.</h1>
+	<h3>We generate Akan names from date of birth. </h3>
+	<a class="btn btn-outline-light btn-lg" href="#form">Get Started</a>
 </div>
 
 <!--- End Home Section -->
@@ -56,10 +59,11 @@
 <div id="about" class="offset">
 
 <div class="col-12 narrow text-center">
-	<h1>nuno theeme text work courses</h1>
-	<p class="lead">.The application should check whether the date and month entered is valid. if either of them is invalid,  the user should be alerted and asked to enter a valid one</p>
-	<a class="btn btn-secondary btn-md" href="http://bit.ly/advanced-bootstrap-course" target="_blank">Bootstrap course</a>
-
+	<h1>About the Akan names.</h1>
+	<p class="lead">Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
+		The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.
+	</p>
+	<a class="btn btn-secondary btn-md" href="https://en.wikipedia.org/wiki/Akan_names" target="_blank">Learn more.</a>
 </div>
 <!--- End About Section -->
 
@@ -69,9 +73,9 @@
 <div class="jumbotron">
 <div class="narrow">
    
-        <div class="col-md-12">
-		  <h3 class="heading">Features</h3>
-		  <div class="heading-underline"></div>
+    <div class="col-md-12">
+	<h3 class="heading">Features</h3>
+	<div class="heading-underline"></div>
         
 
         <div class="row text-center">
@@ -79,7 +83,7 @@
 				<div class="feature">
 					<i class="fas fa-play-circle fa-4x" data-fa-transform="shrink-3 up-5"></i>
 					<h3>custom works</h3>
-					<p>The application should output to the user their Akan name depending on their gender. For example, if a user is male and the result of the calculation is 0.</p>
+					<p>The website is customisable from different variations to best to what fits you and the work your on.</p>
 				</div>
 			</div>
 		</div> 
@@ -88,17 +92,17 @@
 				<div class="feature">
 					<i class="fas fa-sliders-h fa-4x" data-fa-transform="shrink-4.5 up-4.5"></i>
 					<h3>Content Slider</h3>
-					<p>The application should output to the user their Akan name depending on their gender. For example, if a user is male and the result of the calculation is 0.</p>
+					<p>The website contents slides from top to bottom showing the contents every with their description.</p>
 				</div>
 			</div>
 		</div>
-	</div>
+	
 		<div class="row text-center">
 		<div class="col-md-4">
 				<div class="feature">
 					<i class="fab fa-wpforms fa-4x" data-fa-transform="shrink-4 up-5"></i>
 					<h3>Contact Form</h3>
-					<p>The application should output to the user their Akan name depending on their gender. For example, if a user is male and the result of the calculation is 0.</p>
+					<p>The website displays the contact in form of emails and phone numbers to aid the user with their issues in the website.</p>
 				</div>
         </div>
 		</div>
@@ -111,10 +115,38 @@
 </div>
 <!--- End Features Section -->
 <div class="col-12 narrow text-center">
-	<p class="lead">want to learn more about click below</p>
-	<a class="btn btn-secondary btn-md" href="http://bit.ly/advanced-bootstrap-course" target="_blank">Bootstrap course</a>
-	
+	<p class="lead">The website shows the Akan name shown after you enter the Form due to the date explained in the about section.</p>
+	<a class="btn btn-secondary btn-md" href="https://en.wikipedia.org/wiki/Akan_names" target="_blank">Learn more.</a>
 </div>
+
+<!--- Start Form Section -->
+<div id="form" class="offset">
+
+    <div class="container">
+		<div class="jumbotron">
+		  <p class="lead">Enter the Date of Birth and Gender and press the submit button wait the website to display the Akan name.</p>
+		  <form class="centered">
+			<h1>Name Generator Form</h1>
+			<div class="form-group">
+			  <label for="month & year">Date of Birth</label>
+			  <input type="datetime-local" id="month & year" placeholder="Enter Date of Birth" />
+			  <input type="radio" name="gender" value="male" id="male">
+			  <label for="male">Male</label>
+			  <input type="radio" name="gender" value="female" id="female">
+			  <label for="female">Female</label>
+			  <input type="submit" value="Submit"
+			</div>
+		 </form>
+		</div>
+    </div>	
+
+
+</div>
+
+
+
+
+<!--- End Form Section -->
 
 <!--- Start Contact Section -->
 <div id="contact" class="offset">
@@ -124,16 +156,16 @@
 
 	<div class="col-md-5 text-center">
 		<img src="img/nuno.png">
-		<p>design work place</p>
+		<p>Name Generator Website</p>
 		<strong>Contact Info</strong>
-		<p>(0700-000-000)<br>email@gmail.com</p>
-		<a href="" target="_blank"><i class="feb fa-facebook-square"></i></a>
-		<a href="" target="_blank"><i class="feb fa-twitter-square"></i></a>
-		<a href="" target="_blank"><i class="feb fa-instagram"></i></a>
+		<p>(0700-000-000)<br>austinbrian005@gmail.com</p>
+		<a href="#" target="_blank"><i class="feb fa-facebook-square"></i></a>
+		<a href="#" target="_blank"><i class="feb fa-twitter-square"></i></a>
+		<a href="#" target="_blank"><i class="feb fa-instagram"></i></a>
 	</div>
 
 	<hr class="socket">
-	&copy; Nuno Theme
+	&copy; Akan name Website
 </div>
 </footer>	
 
