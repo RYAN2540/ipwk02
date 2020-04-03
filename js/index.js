@@ -34,3 +34,9 @@ var dateEntered = dayOfBirth.split("birthday");
 var day = parseInt(dateEntered[2]);
 var month =parseInt(dateEntered[1]);
 var year = parseInt|(dateEntered[0]);
+ var gender = document.getElementById("gender").value;
+ var genderchk = gender.split ("gender")
+ if(dateEntered[2]=0) "&&"(genderchk=male){
+    return "kwasi";}
+
+}
