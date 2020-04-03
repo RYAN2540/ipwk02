@@ -125,16 +125,21 @@
     <div class="container">
 		<div class="jumbotron">
 		  <p class="lead">Enter the Date of Birth and Gender and press the submit button wait the website to display the Akan name.</p>
-		  <form class="centered">
+		  <form class="centered" id="form-user>
 			<h1>Name Generator Form</h1>
 			<div class="form-group">
-			  <label for="month & year">Date of Birth</label>
-			  <input type="datetime-local" id="month & year" placeholder="Enter Date of Birth" />
-			  <input type="radio" name="gender" value="male" id="male">
-			  <label for="male">Male</label>
-			  <input type="radio" name="gender" value="female" id="female">
-			  <label for="female">Female</label>
-			  <input type="submit" value="Submit"
+			   <div class="form-box" id="birthday">	       
+			    <label for="birthday">Date of Birth</label>
+			    <input type="date" id="birthday" name="birthday" placeholder="Enter Date of Birth" />
+                           </div>
+		           <div class="form-box" id="gender">
+			    <input type="radio" name="gender" value="male" id="male">
+			    <label for="male">Male</label>
+			    <input type="radio" name="gender" value="female" id="female">
+			    <label for="female">Female</label>
+			   </div>					       
+	                   <button id="button-cancel">Cancel</button>
+		           <button id="button-submit">Submit</button>
 			</div>
 		 </form>
 		</div>
