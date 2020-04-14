@@ -26,7 +26,7 @@
 				<a class="nav-link" href="#home">Home</a>
 			</li>
 
-            <li class"nav-item">
+                        <li class"nav-item">
 				<a class="nav-link" href="#about">About</a>
 			</li>
 			<li class"nav-item">
@@ -121,24 +121,34 @@
 
 <!--- Start Form Section -->
 <div id="form" class="offset">
-
-    <div class="container">
+           <div class="container">
 		<div class="jumbotron">
 		  <p class="lead">Enter the Date of Birth and Gender and press the submit button wait the website to display the Akan name.</p>
-		  <form class="centered">
+		  <form class="centered" id="form-user">
 			<h1>Name Generator Form</h1>
-			<div class="form-group">
-			  <label for="month & year">Date of Birth</label>
-			  <input type="datetime-local" id="month & year" placeholder="Enter Date of Birth" />
-			  <input type="radio" name="gender" value="male" id="male">
-			  <label for="male">Male</label>
-			  <input type="radio" name="gender" value="female" id="female">
-			  <label for="female">Female</label>
-			  <input type="submit" value="Submit"
+			<div class="form-group>
+			  <div class="form-box" id="birthday"
+			  <label for="BIRTHDAY-month">Birthday </label>
+	                  <div class="datefield">
+		          <span class="subfield monthfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="MM" size="2" maxlength="2" name="BIRTHDAY[month]" id="mce-BIRTHDAY-month"></span> / 
+		          <span class="subfield dayfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="DD" size="2" maxlength="2" name="BIRTHDAY[day]" id="mce-BIRTHDAY-day"></span> 
+		          <span class="small-meta nowrap">( mm / dd )</span>
+                         </div>
+			  <div class="form-box" id="gender">
+			   <input type="radio" name="gender" value="male" id="male">
+			   <label for="male">Male</label>
+			   <input type="radio" name="gender" value="female" id="female">
+			   <label for="female">Female</label>
+			  </div>
+			  <button id="button-cancel">Cancel</button>
+			  <button id="button-submit">Submit</button>
 			</div>
-		 </form>
-		</div>
+		  </form>
+	  </div>
     </div>	
+
+
+	  	
 
 
 </div>
